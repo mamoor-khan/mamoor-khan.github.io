@@ -6,6 +6,7 @@
     align-items: center;
     gap: 0.5rem;
     padding-inline-end: 0.5rem;
+    padding-left: 0.8rem;
 }
 
 .search-add-chat-container>.search-bar>span>img {
@@ -88,9 +89,12 @@
     width: 100%;
     align-items: center;
     gap: 1.2rem;
-    /* border-bottom: thin solid var(--highlight); */
-    /* padding-block: 0.7rem; */
     cursor: pointer;
+    padding-left: 0.8rem;
+}
+
+.chat-item:hover {
+    background-color: var(--default-hover-bg);
 }
 
 .chat-item span>img {

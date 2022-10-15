@@ -8,9 +8,10 @@
     --header-bg: #202c33;
     --primary-bg: #111b21;
     --primary-dark-bg: #0b141a;
-    --highlight: #374248;
+    --highlight: hsl(201, 13%, 20%);
     --input-placeholder: #8696a0;
     --primary: #dbedef;
+    --default-hover-bg: #202c33;
 }
 
 .pdl-2 {
@@ -48,7 +49,7 @@ span {
     border-right: thin solid var(--highlight);
     display: flex;
     flex-direction: column;
-    padding-left: 0.8rem;
+    /* padding-left: 0.8rem; */
 }
 
 .chat-container {
