@@ -10,6 +10,11 @@
     --primary-dark-bg: #0b141a;
     --highlight: #374248;
     --input-placeholder: #8696a0;
+    --primary: #dbedef;
+}
+
+.pdl-2 {
+    padding-inline-start: 20px;
 }
 
 .main-container {
@@ -27,6 +32,10 @@
     width: 100%;
     padding: 0.62rem 1rem;
     border-right: thin solid var(--highlight);
+}
+
+span {
+    line-height: 0;
 }
 
 .chat-header {
