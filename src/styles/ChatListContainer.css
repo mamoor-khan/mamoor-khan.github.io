@@ -1,0 +1,57 @@
+.search-add-chat-container {
+    padding-block: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-inline-end: 0.5rem;
+}
+
+.search-add-chat-container>.search-bar>span>img {
+    width: 16px;
+}
+
+.search-add-chat-container span>img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-add-chat-container>.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: var(--header-bg);
+    padding-inline-start: 1rem;
+    padding-inline-end: 2rem;
+    padding-block: 0.6rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.search-add-chat-container>.search-bar>span {
+    padding-inline-end: 2rem;
+    line-height: 0;
+}
+
+.search-add-chat-container>.search-bar>input {
+    flex: 1;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: thin;
+}
+
+.search-add-chat-container>.search-bar>input::placeholder {
+    color: var(--input-placeholder);
+    font-size: 0.8rem;
+}
+
+.search-add-chat-container>.search-bar>.cross-icon {
+    position: absolute;
+    right: -19px;
+}
+
+.search-add-chat-container>.search-bar>.cross-icon>img {
+    width: 9px;
+}

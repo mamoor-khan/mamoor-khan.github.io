@@ -1,3 +1,4 @@
+import ChatListContainer from './ChatListContainer'
 import UserHeader from './UserHeader'
 
 function MainContainer() {
@@ -7,7 +8,9 @@ function MainContainer() {
         <UserHeader />
       </section>
       <section className='chat-header'></section>
-      <section className='chat-list-container'></section>
+      <section className='chat-list-container'>
+        <ChatListContainer />
+      </section>
       <section className='chat-container'></section>
     </div>
   )
