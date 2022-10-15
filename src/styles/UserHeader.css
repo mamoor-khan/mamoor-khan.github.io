@@ -1,0 +1,20 @@
+.user-header>* {
+    cursor: pointer;
+}
+
+.user-header>.user-logo {
+    flex: 1;
+    line-height: 0;
+}
+
+.user-header>.user-logo>img {
+    width: 40px;
+}
+
+.user-header>span>img {
+    width: 22px;
+}
+
+.menu-icon {
+    rotate: 90deg;
+}
