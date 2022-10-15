@@ -1,0 +1,42 @@
+.msg-container,
+.msg-input-wrapper {
+    font-family: Arial, sans-serif;
+}
+
+.msg-input-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: var(--header-bg);
+    padding-block: 0.65rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    height: 4rem;
+    padding-inline: 1.2rem;
+}
+
+.msg-input-container span>img {
+    width: 24px;
+}
+
+.msg-input-container>.input-box {
+    flex-grow: 1;
+    background-color: var(--user-input-bg);
+    padding: 0.6rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 8px;
+}
+
+.msg-input-container>.input-box>input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.95rem;
+    color: var(--primary-text);
+}
+
+.msg-input-container>.input-box>input::placeholder {
+    color: var(--input-placeholder);
+    font-size: 0.95rem;
+}

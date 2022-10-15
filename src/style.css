@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--primary);
 }
 
 :root {
@@ -12,6 +13,8 @@
     --input-placeholder: #8696a0;
     --primary: #dbedef;
     --default-hover-bg: #202c33;
+    --user-input-bg: #2a3942;
+    --primary-text: #d1d7db;
 }
 
 .pdl-2 {
@@ -49,7 +52,6 @@ span {
     border-right: thin solid var(--highlight);
     display: flex;
     flex-direction: column;
-    /* padding-left: 0.8rem; */
 }
 
 .chat-container {
