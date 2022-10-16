@@ -71,3 +71,28 @@ span {
     height: 100%;
     opacity: 0.06;
 }
+
+
+/* Scrollable Container */
+
+.scrollable-container::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: var(--header-bg);
+}
+
+.scrollable-container-parent {
+    position: relative;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.scrollable-container-parent>.scrollable-container {
+    position: absolute;
+    overflow-y: scroll;
+    height: 100%;
+    color: var(--primary);
+    width: 100%;
+}

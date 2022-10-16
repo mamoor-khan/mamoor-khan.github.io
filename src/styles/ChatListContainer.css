@@ -62,28 +62,6 @@
 
 /* Chats Container */
 
-.scrollable-container::-webkit-scrollbar {
-    width: 0.3rem;
-}
-
-.scrollable-container::-webkit-scrollbar-thumb {
-    background-color: var(--header-bg);
-}
-
-.chats-container {
-    position: relative;
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
-
-.chats-container>.scrollable-container {
-    position: absolute;
-    overflow-y: scroll;
-    height: 100%;
-    color: var(--primary);
-    width: 100%;
-}
-
 .chat-item {
     display: flex;
     width: 100%;

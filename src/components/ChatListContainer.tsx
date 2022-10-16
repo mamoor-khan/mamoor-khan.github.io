@@ -1,12 +1,13 @@
 import '../styles/ChatListContainer.css'
 import ChatList from './ChatList'
+import ScrollableContainer from './ScrollableContainer'
 import SearchAddChat from './SearchAddChat'
 
 function ChatListContainer() {
   return (
     <>
       <SearchAddChat />
-      <ChatList />
+      <ScrollableContainer Comp={<ChatList />} />
     </>
   )
 }

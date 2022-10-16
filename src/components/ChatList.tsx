@@ -19,34 +19,32 @@ type Chat = {
 
 function ChatList() {
   return (
-    <div className='chats-container'>
-      <div className='scrollable-container'>
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-        <ChatItem />
-      </div>
-    </div>
+    <>
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
+    </>
   )
 }
 

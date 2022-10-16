@@ -3,7 +3,10 @@ import '../styles/ChatContainer.css'
 function ChatContainer() {
   return (
     <>
-      <div className='msg-container'>ChatContainer</div>
+      {/* Msg Container */}
+      {/* <ScrollableContainer Comp={} /> */}
+
+      {/* Msg Input */}
       <div className='msg-input-container'>
         <span>
           <img src='img/emoji.svg' alt='i' />
