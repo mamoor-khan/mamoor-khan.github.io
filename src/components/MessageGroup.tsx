@@ -7,6 +7,9 @@ function MessageGroup({ messageList, date = '', align }: MessageProps) {
         align === Align.LEFT ? 'jc-s' : 'jc-e'
       }`}
     >
+      <div className='date-container jc-c'>
+        <p className='date'>{date}</p>
+      </div>
       {messageList.map((msg) => (
         <div
           key={msg.id}

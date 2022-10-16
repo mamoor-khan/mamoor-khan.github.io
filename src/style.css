@@ -19,6 +19,8 @@
     --msg-border: hsl(202, 23%, 18%);
     --msg-text-primary: #e9edef;
     --msg-time: #ffffff99;
+    --secondary-text: #8696a0;
+    --secondary-bg: #182229;
 }
 
 .pdl-2 {

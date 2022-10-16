@@ -54,7 +54,25 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-block: 0.5rem;
+    padding-block: 0.45rem;
+}
+
+.msg-group-container>.date-container {
+    margin: auto;
+    margin-bottom: 0.8rem;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-inline: 0.85rem;
+    border-radius: 8px;
+    background-color: var(--secondary-bg);
+}
+
+.msg-group-container .date {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--secondary-text);
+    text-transform: uppercase;
 }
 
 .msg-group-container>.msg-block {
@@ -98,15 +116,15 @@
     font-size: 0.7rem;
 }
 
-.msg-block.from:first-child {
+.msg-block.from:nth-child(2) {
     border-top-left-radius: 0;
 }
 
-.msg-block.to:first-child {
+.msg-block.to:nth-child(2) {
     border-top-right-radius: 0;
 }
 
-.msg-block.from:first-child::before {
+.msg-block.from:nth-child(2)::before {
     content: '';
     width: 20px;
     height: 20px;
@@ -119,7 +137,7 @@
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
 
-.msg-block.to:first-child::before {
+.msg-block.to:nth-child(2)::before {
     content: '';
     width: 20px;
     height: 20px;

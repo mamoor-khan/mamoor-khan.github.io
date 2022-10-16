@@ -32,6 +32,12 @@ function MessageContainer() {
       <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
       <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
       <MessageGroup messageList={msg2} date='FRIDAY' align={Align.RIGHT} />
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
+      <MessageGroup messageList={msg2} date='FRIDAY' align={Align.RIGHT} />
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
+      <MessageGroup messageList={msg2} date='FRIDAY' align={Align.RIGHT} />
     </div>
   )
 }
