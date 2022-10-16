@@ -1,10 +1,15 @@
 import '../styles/ChatContainer.css'
+import MessageContainer from './MessageContainer'
+import ScrollableContainer from './ScrollableContainer'
 
 function ChatContainer() {
   return (
     <>
       {/* Msg Container */}
-      {/* <ScrollableContainer Comp={} /> */}
+      <ScrollableContainer
+        Comp={<MessageContainer />}
+        reverseScrolling={true}
+      />
 
       {/* Msg Input */}
       <div className='msg-input-container'>

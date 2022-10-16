@@ -95,4 +95,10 @@ span {
     height: 100%;
     color: var(--primary);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-container-parent>.scrollable-container.reverse {
+    flex-direction: column-reverse;
 }
