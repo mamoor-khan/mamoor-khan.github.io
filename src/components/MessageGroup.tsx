@@ -11,7 +11,7 @@ function MessageGroup({ messageList, date = '', align }: MessageProps) {
         <div
           key={msg.id}
           className={`msg-block ${
-            align === Align.LEFT ? 'bg-dark' : 'bg-green'
+            align === Align.LEFT ? 'bg-dark from' : 'bg-green to'
           }`}
         >
           <div className='text-container'>

@@ -98,11 +98,15 @@
     font-size: 0.7rem;
 }
 
-.msg-block:first-child {
+.msg-block.from:first-child {
     border-top-left-radius: 0;
 }
 
-.msg-block:first-child::before {
+.msg-block.to:first-child {
+    border-top-right-radius: 0;
+}
+
+.msg-block.from:first-child::before {
     content: '';
     width: 20px;
     height: 20px;
@@ -112,5 +116,18 @@
     left: -8px;
     top: -6px;
     rotate: -62deg;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.msg-block.to:first-child::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: var(--green-bg);
+    position: absolute;
+    right: -2px;
+    top: -6px;
+    rotate: -65deg;
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
