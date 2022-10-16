@@ -15,10 +15,22 @@
     --default-hover-bg: #202c33;
     --user-input-bg: #2a3942;
     --primary-text: #d1d7db;
+    --green-bg: #005c4b;
+    --msg-border: hsl(202, 23%, 18%);
+    --msg-text-primary: #e9edef;
+    --msg-time: #ffffff99;
 }
 
 .pdl-2 {
     padding-inline-start: 20px;
+}
+
+.jc-e {
+    align-items: flex-end;
+}
+
+.jc-s {
+    align-items: flex-start;
 }
 
 .main-container {

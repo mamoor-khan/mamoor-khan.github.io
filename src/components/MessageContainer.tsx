@@ -1,45 +1,23 @@
+import { Align, Message } from '../types/Message'
+import MessageGroup from './MessageGroup'
+
 function MessageContainer() {
+  const msg: Array<Message> = [
+    {
+      id: '101',
+      text: 'this is some stupid msg.',
+      time: '10:32',
+    },
+    {
+      id: '102',
+      text: 'second msg for testing some other things',
+      time: '10:32',
+    },
+  ]
   return (
-    <div
-      style={{
-        marginBottom: '4rem',
-      }}
-    >
-      <ul style={{ display: 'flex', flexDirection: 'column-reverse' }}>
-        <li>fdasfd 1</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd</li>
-        <li>fdasfd 33</li>
-      </ul>
+    <div className='message-container'>
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
+      <MessageGroup messageList={msg} date='FRIDAY' align={Align.LEFT} />
     </div>
   )
 }

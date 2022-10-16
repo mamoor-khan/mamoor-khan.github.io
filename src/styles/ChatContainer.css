@@ -44,3 +44,73 @@
 
 
 /* MSG Container */
+
+.message-container {
+    margin-bottom: 4rem;
+    padding-inline: 4.6rem;
+}
+
+.msg-group-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 0.5rem;
+}
+
+.msg-group-container>.msg-block {
+    display: flex;
+    position: relative;
+    margin-block-end: 0.2rem;
+    padding: 0.4rem 0.45rem 0.5rem 0.55rem;
+    border-radius: 0.45rem;
+    max-width: 30.5rem;
+}
+
+.msg-group-container>.msg-block.bg-dark {
+    background-color: var(--header-bg);
+}
+
+.msg-group-container>.msg-block.bg-green {
+    background-color: var(--green-bg);
+}
+
+.msg-group-container>.msg-block.border {
+    border: 3px solid var(--msg-border);
+}
+
+.msg-group-container>.msg-block .text {
+    color: var(--msg-text-primary);
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
+.msg-group-container>.msg-block .space {
+    width: 3.5rem;
+    height: 12px;
+    display: inline-block;
+}
+
+.msg-group-container>.msg-block>.time {
+    position: absolute;
+    bottom: 9px;
+    color: var(--msg-time);
+    right: 7px;
+    font-size: 0.7rem;
+}
+
+.msg-block:first-child {
+    border-top-left-radius: 0;
+}
+
+.msg-block:first-child::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: var(--header-bg);
+    position: absolute;
+    left: -8px;
+    top: -6px;
+    rotate: -62deg;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
